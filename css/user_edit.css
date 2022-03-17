@@ -1,0 +1,85 @@
+*{
+	margin: 0px;
+	padding: 0px;
+	font-family: 微软雅黑;
+	font-weight: 400;
+}
+body{
+	background-image: url(../picture/sakura.png);
+}
+.container{
+	background: rgba(255,255,255,0.5);
+	width: 1150px;
+	position: relative;
+	left: 0px;
+	top: 0px;
+	right: 0px;
+	margin: auto auto;
+}
+
+/*顶部导航栏CSS样式*/
+.topbar{
+	height: 300px;
+	position: relative;
+	background: url(../picture/banner.jpg);
+	background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center -35px;
+}
+.logo{
+	padding-top: 120px;
+	padding-left: 40px;
+}
+.topbar .logo .name{
+	font-size: 50px;
+	font-weight: 900;
+}
+.menu{
+	position: absolute;
+	bottom: 0px;
+	height: 40px;
+	background-color: rgba(0,0,0,0.7);
+	width: 100%;
+}
+.item{
+	height: 100%;
+	width: 150px;
+	text-align: center;
+	padding:auto 0;
+	font-size: 30px;
+}
+
+/*中部个人信息显示*/
+.main_page{
+	min-height: 1000px;
+	border: 2px black solid;
+}
+.personal_info{
+	min-height: 500px;
+	margin-left: 50px;
+	margin-right: 50px;
+	padding:20px;
+	font-size: 25px;
+}
+.form_control{
+    width: 500px;
+    height: 35px;
+    background-color: rgba(255,255,255,0.3);
+    border: 0px;
+}
+
+/*设置a链接的样式*/
+a{
+	text-decoration: none;
+	display: block;
+	height: 100%;
+}
+.topbar .menu a:link{
+	color: rgb(255,255,255);
+}
+.topbar .menu a:visited{
+	color: rgb(255,255,255);
+}
+.row_selectnode ul{
+	list-style: none;
+}

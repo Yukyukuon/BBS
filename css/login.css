@@ -1,0 +1,76 @@
+		*{
+			margin: 0;
+			padding: 0;
+		}
+		body{
+			background-image: url(../picture/BG4.jpg);
+			width: 100%;
+            background-repeat: no-repeat;
+            background-size: cover;
+            background-position: top center;
+            background-attachment: fixed;
+            color:rgb(255,255,255);
+            font-size: 20px;
+        }
+
+
+        /*div框架样式设置*/
+        .leftbar{
+        	width:500px;
+        	height: 100%;
+        	  /*border: yellow 2px solid;*/
+        	float: left;
+        	position:fixed;
+        	background-color: rgba(0,0,0,0.5);
+        }
+        .main_title_box{
+        	  /*border: green 2px solid;*/
+        	margin-top:180px;
+        	height:100px;        	  
+        }        
+        .main_box{
+        	    /*border: pink 2px solid;*/
+        	  height: 500px;
+        	  margin-top: 20px;
+        	  text-align: center;
+        }
+
+        /*文字css样式设置*/
+        .main_title_box p{
+        	font-size: 40px;
+        	font-weight: bold;
+        	text-align: center;
+        }
+
+
+        /*form内容设置*/
+        .form_control{
+        	width: 300px;
+        	height: 35px;
+        	background-color: rgba(0,0,0,0);
+        	border: 0px;
+        	color: white;
+        }
+        #year{
+        	width:100px;
+        	background-color: rgba(0,0,0,0);
+        	border: 0px;
+        	color: rgb(255,255,255);
+        }
+        #month{
+        	with:50px;
+        	background-color: rgba(0,0,0,0);
+        	border: 0px;
+        	color: rgb(255,255,255);
+        }
+        #day{
+        	width:50px;
+        	background-color: rgba(0,0,0,0);
+        	border: 0px;
+        	color: rgb(255,255,255);
+        }
+        #submit_button{
+        	width: 100px;
+        	height: 50px;
+        	background-color: rgba(0,0,0,0.4);
+        }

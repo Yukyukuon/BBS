@@ -1,0 +1,111 @@
+*{
+	margin: 0px;
+	padding: 0px;
+	font-family: 微软雅黑;
+	font-weight: 400;
+}
+
+body{
+	background-image: url(../picture/BG1.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: top center;
+    background-attachment: fixed;
+}
+
+.container{
+	background: rgb(255,255,255);
+	width: 1150px;
+	position: relative;
+	left: 0px;
+	top: 0px;
+	right: 0px;
+	margin: auto auto;
+}
+
+/*顶部导航栏CSS样式*/
+.topbar{
+	height: 300px;
+	position: relative;
+	background: url(../picture/index_top.jpg);
+	background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center -35px;
+}
+.logo{
+	padding-top: 120px;
+	padding-left: 40px;
+	color:white;
+}
+.topbar .logo .name{
+	font-size: 50px;
+	font-weight: 900;
+}
+.menu{
+	position: absolute;
+	bottom: 0px;
+	height: 40px;
+	background-color: rgba(0,0,0,0.7);
+	width: 100%;
+}
+.item{
+	height: 100%;
+	width: 150px;
+	text-align: center;
+	padding:auto 0;
+	font-size: 30px;
+}
+
+/*中部筛选搜索栏CSS样式*/
+.row_selectnode{
+	padding-top: 10px;
+	padding-left: 15px;
+	padding-right: 15px;
+	padding-bottom: 10px;
+}
+.row_selectnode_1{
+	position: relative;
+	width: 100%;
+}
+.row_selectnode ul li{
+	float: left;
+	margin-left: 32px;
+	font-size: 20px;
+}
+.row_selectnode_2{
+	float: right;
+}
+.row_selectnode_3{
+	clear: both;
+	width: 100%;
+	text-align: center;
+}
+hr{
+	width: 100%
+	margin-bottom: 10px;
+}
+
+/*底部主信息显示div*/
+.main_page{
+	border: 2px black solid;
+	height: 700px;
+	padding-left: 15px;
+	padding-right: 15px;
+}
+
+
+/*设置a链接的样式*/
+a{
+	text-decoration: none;
+	display: block;
+	height: 100%;
+}
+.topbar .menu a:link{
+	color: rgb(255,255,255);
+}
+.topbar .menu a:visited{
+	color: rgb(255,255,255);
+}
+.row_selectnode ul{
+	list-style: none;
+}
